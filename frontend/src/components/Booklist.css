@@ -1,0 +1,183 @@
+.book-list-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.book-card {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+/* Sidebar for Categories */
+.sidebar {
+  padding: 40px;
+  
+  border-right: px solid #ddd;
+  height: 100vh;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+
+.sidebar .list-group-item {
+  cursor: pointer;
+  padding: 25px;
+}
+
+.sidebar .list-group-item.active {
+  background-color: #3c3d3e;
+  color: #fff;
+}
+
+/* Book List */
+.book-list {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.book-list h1 {
+  margin-bottom: 20px;
+}
+
+.book-list .book-card {
+  
+}
+
+/* Cart */
+
+.cart-button{
+  position: fixed;
+  margin-bottom:200px ;
+  right: 20px;
+  width: 100px;
+
+}
+.cart-container {
+  position: fixed;
+  top: 10%;
+  right: 20px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.cart-container h2 {
+  text-align: center;
+}
+
+.cart-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-container ul li {
+  margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .book-list-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    height: auto;
+  }
+
+  .book-list {
+    padding-left: 0;
+  }
+
+  .cart-container {
+    width: 100%;
+    right: 0;
+    border: none;
+    box-shadow: none;
+  }
+  
+  
+}
+
+.cbody button{
+  background-color: #4CAF50;
+  margin-bottom: 500px;
+}
+
+
+.cart-button .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+
+.bimg{
+ 
+ 
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.book-list {
+  flex: 2;
+}
+
+.book-card {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.cbody{
+  margin:0;
+}
+.ctitle{
+  font-size: 30px;
+  position: relative;
+  top:10px
+}
+.cprice{
+  font-size: 20px;
+  position: relative;
+  top:20px;
+  font-weight: bold;
+  
+}
+.book-card img {
+  height: 300px;
+  width: 250px;
+  
+  
+}
+
+.view1{
+  position: relative;
+  bottom: 20px;
+  width: 120px;
+}
+
+.view{
+  position: relative;
+  bottom: 245px;
+  left: 20px;
+}

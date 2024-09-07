@@ -1,0 +1,193 @@
+.home {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: -16px;
+    overflow-x: hidden;
+  }
+  
+  .carousel-container {
+    
+  }
+  
+  .cimg{
+    height: 98vh;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .store-details, .popular-books {
+    padding: 20px;
+    
+  }
+  
+  .store-details h2, .popular-books h2 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card, .book-card {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img {
+    height: 200px;
+    
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 7px;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    height: 90px;
+    padding-top: 5px;
+    
+  }
+  
+  .p-img{
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+  }
+
+
+  .categories-section {
+    padding: 20px;
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .categories-section h2 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .category-card .card-body {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .category-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .category-card .card-text {
+    margin-bottom: 20px;
+  }
+  
+  .category-card button {
+    width: 100%;
+  }
+  
+  .popular-books {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .popular-books h2 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .popular-books .card-container {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+    padding: 10px 0; /* Space around the cards */
+    gap: 20px; /* Space between cards */
+    flex-wrap: nowrap; /* Prevents wrapping to the next line */
+  }
+  
+  .book-card {
+    max-width: 380px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box; 
+  }
+  
+  .book-card:hover {
+    transform: scale(1.03); /* Hover effect */
+    overflow: hidden;
+  }
+  
+  .p-img {
+    max-width: 100%;
+  height: auto;
+  }
+  
+  .book-card .card-body {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .book-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .book-card .card-text {
+    font-size: 0.9rem;
+    color: #666;
+    height: 60px; /* Limit text height */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+  
